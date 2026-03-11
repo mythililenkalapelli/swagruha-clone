@@ -58,7 +58,6 @@ export default function Categories() {
 
       <Container maxWidth="xl" sx={{ px: { xs: 4, sm: 8, md: 14, lg: 16 }, position: "relative", zIndex: 1 }}>
 
-        {/* Title */}
         <Typography
           sx={{
             fontSize: { xs: "30px", md: "42px" },
