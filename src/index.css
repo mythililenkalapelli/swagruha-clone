@@ -1,0 +1,18 @@
+/* Remove browser default spacing */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  /* ← hides the scrollbar */
+  background-color: #fdf4e9;
+
+}
+
+/* Make app take full width */
+#root {
+  width: 100%;
+}
+
+/* Optional: remove all default spacing everywhere */
+* {
+  box-sizing: border-box;
+}
